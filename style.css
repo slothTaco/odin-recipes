@@ -1,0 +1,29 @@
+/*styelsheet for index*/
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+    background: #008000;
+    border-width: 10px; 
+    border-color: red;
+    border-style: solid;
+    
+   
+}
+
+.information_about_what_I_am_doing {
+
+    border: 5px solid green;
+    border-left-color: red;
+    border-left-style: solid;
+
+}
+
+
+ul {
+    list-style-type: none;
+
+}
