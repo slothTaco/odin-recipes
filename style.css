@@ -8,10 +8,26 @@ h1 {
     text-align: center;
     background: #008000;
     border-width: 10px; 
-    border-color: red;
+    border-color: firebrick;
     border-style: solid;
     
    
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Times New Roman;
+    text-decoration: underline;
+    text-align: left;
+    background: yellow;
+    width: 300px;
+    border-width: 5px;
+    border-color: #e4b5e8;
+    border-style: solid;
+
+    
+
 }
 
 .information_about_what_I_am_doing {
@@ -26,4 +42,48 @@ h1 {
 ul {
     list-style-type: none;
 
+}
+
+/* links below have to be in this order to work*/
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+/* not yet clicked/
+a:link {
+    color: black;
+}
+link has been visited
+a:visited {
+    color: purple;
+}
+
+while hovering over focus = using tab/
+a:hover, a:focus {
+    color: green;
+}
+
+while cliking/
+a:active {
+    color: blue;
+}
+ end of links*/
+
+/*buttons*/
+.button_one {
+    background: orange;
+
+}
+
+.button_two {
+    background:orange;
+}
+
+.button_three {
+    background: orange;
 }
