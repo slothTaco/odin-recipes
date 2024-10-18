@@ -3,7 +3,8 @@
 h1 {
     color: black;
     font-size: 50px;
-    font-family: fantasy;
+    /*font stack*/
+    font-family: "Times New Roman", Times, serif; Arial, sans-serif;
     text-decoration: underline;
     text-align: center;
     background: #008000;
@@ -17,7 +18,7 @@ h1 {
 h2 {
     color: black;
     font-size: 30px;
-    font-family: Times New Roman;
+    font-family: Rockwell, "courier Bold", courier, Gerogia, Times,serif;
     text-decoration: underline;
     text-align: left;
     background: yellow;
@@ -25,16 +26,24 @@ h2 {
     border-width: 5px;
     border-color: #e4b5e8;
     border-style: solid;
+    font-weight: bold;
+    text-transform: uppercase;
 
-    
+    margin-bottom: 0px;    
 
 }
 
 .information_about_what_I_am_doing {
+    margin-top: 1px;
+
+    line-height: 2;
+
+    font-style: italic;
 
     border: 5px solid green;
     border-left-color: red;
     border-left-style: solid;
+
 
 }
 
