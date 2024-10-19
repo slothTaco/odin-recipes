@@ -1,6 +1,8 @@
 /*styelsheet for index*/
 
+
 h1 {
+    text-align: center;
     color: black;
     font-size: 50px;
     /*font stack*/
@@ -95,4 +97,27 @@ a:active {
 
 .button_three {
     background: orange;
+}
+
+/*Enchilada_Sauce
+list-style(-image: url (..path for image for icon....)): cirlcle, none,  upper-roman, lower-roman, lower-alpha, upper-alpha*/
+
+.Enchilada_Ing {
+ list-style: circle;
+ background: pink;
+ width: 400px; 
+}
+
+ .Enchilada_Ing li {
+ text-align: center;
+ list-style-position: inside;
+ border-width: 2px;
+ background: rgb(124, 161, 209);
+ text-align: left;
+ width: 300px;
+ border-width: 5px;
+ border-color: #e4b5e8;
+ border-style: solid;
+ font-style: italic;
+
 }
