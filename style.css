@@ -1,51 +1,38 @@
-/*styelsheet for index*/
-
-
-h1 {
+1 {
     text-align: center;
-    color: black;
-    font-size: 50px;
-    /*font stack*/
-    font-family: "Times New Roman", Times, serif; Arial, sans-serif;
     text-decoration: underline;
-    text-align: center;
-    background: #008000;
-    border-width: 10px; 
-    border-color: firebrick;
-    border-style: solid;
-    
+     width: 400px;
+     background: #AEC6CF;
+     margin :16px auto;
+     padding:8px;
+     border-left:5px solid #FFC5D3;
+     
+     
    
 }
 
 h2 {
-    color: black;
-    font-size: 30px;
-    font-family: Rockwell, "courier Bold", courier, Gerogia, Times,serif;
+    text-align: center;
     text-decoration: underline;
-    text-align: left;
-    background: yellow;
-    width: 300px;
-    border-width: 5px;
-    border-color: #e4b5e8;
-    border-style: solid;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 400px;
+    background: #AEC6CF;
+    margin: 16px auto;
+    margin-bottom: 0;
+    padding:8px;
+    border-left:5px solid #FFC5D3;
 
-    margin-bottom: 0px;    
+       
 
 }
 
 .information_about_what_I_am_doing {
-    margin-top: 1px;
 
-    line-height: 2;
-
-    font-style: italic;
-
-    border: 5px solid green;
-    border-left-color: red;
-    border-left-style: solid;
-
+    text-align: center;
+    width: 400px;
+    background: #AEC6CF;
+    margin:16px auto;
+    padding:8px;
+    border-left:5px solid #FFC5D3;
 
 }
 
@@ -85,20 +72,25 @@ a:active {
 }
  end of links*/
 
+
 /*buttons*/
-.button_one {
-    background: orange;
 
+.recipe_links {
+
+    width: 200px;
+    background: #AEC6CF;
+    margin :16px auto;
+    text-align: center;
+    padding: 8px;
+    border-left:5px solid #FFC5D3;
+
+    }
+
+button {
+
+    margin: 3px;
 }
-
-.button_two {
-    background:orange;
-}
-
-.button_three {
-    background: orange;
-}
-
+    
 /*Enchilada_Sauce
 list-style(-image: url (..path for image for icon....)): cirlcle, none,  upper-roman, lower-roman, lower-alpha, upper-alpha*/
 
